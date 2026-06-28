@@ -1,0 +1,24 @@
+{
+  "name": "devops-cicd-project",
+  "version": "1.0.0",
+  "description": "This project demonstrates a production-style DevOps CI/CD pipeline from scratch using industry-standard tools.",
+  "main": "index.js",
+  "scripts": {
+  "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhaveshGadre/devops-cicd-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BhaveshGadre/devops-cicd-project/issues"
+  },
+  "homepage": "https://github.com/BhaveshGadre/devops-cicd-project#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
