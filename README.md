@@ -19,8 +19,12 @@ This project demonstrates a production-style DevOps CI/CD pipeline from scratch 
 
 ## Project Status
 
-🚀 Project Started
+ Project Started
 
 ## Author
 
 Bhavesh Gadre
+
+## Login Feature
+
+This feature branch is created for learning Git branching.
