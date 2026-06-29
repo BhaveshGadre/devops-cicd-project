@@ -19,7 +19,8 @@ This project demonstrates a production-style DevOps CI/CD pipeline from scratch 
 
 ## Project Status
 
- Project Started
+Project Status - Updated from conflict-demo branch
+Project Status - Updated from main branch
 
 ## Author
 
