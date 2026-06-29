@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-    res.send("Employee Management API is Running 🚀");
+    res.send("Employee Management API - CI/CD Successful 🚀");
 });
 
 app.get("/health", (req, res) => {
