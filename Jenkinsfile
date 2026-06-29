@@ -1,16 +1,33 @@
 pipeline {
     agent any
 
+    environment {
+        IMAGE_NAME = "snehbhav/employee-api:v2"
+    }
+
     stages {
-        stage('Clone') {
+
+        stage('Build Image') {
             steps {
-                echo 'Repository cloned successfully.'
+                sh 'docker build -t $IMAGE_NAME .'
             }
         }
 
-        stage('Build Docker Image') {
+        stage('Docker Login') {
             steps {
-                sh 'docker build -t employee-api:v1 .'
+                withCredentials([usernamePassword(
+                    credentialsId: 'dockerhub',
+                    usernameVariable: 'DOCKER_USER',
+                    passwordVariable: 'DOCKER_PASS'
+                )]) {
+                    sh 'echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin'
+                }
+            }
+        }
+
+        stage('Push Image') {
+            steps {
+                sh 'docker push $IMAGE_NAME'
             }
         }
     }
