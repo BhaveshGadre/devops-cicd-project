@@ -169,9 +169,8 @@ Run Docker Container
 docker run -d -p 3000:3000 employee-api:v1
 ```
 
----
 
-# 📚 Key Learnings
+#  Key Learnings
 
 * CI/CD Pipeline Design
 * Jenkins Pipeline Automation
@@ -182,9 +181,8 @@ docker run -d -p 3000:3000 employee-api:v1
 * Linux Administration
 * Git Branch Management
 
----
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 * Kubernetes Deployment
 * Terraform Infrastructure
@@ -194,9 +192,8 @@ docker run -d -p 3000:3000 employee-api:v1
 * Grafana Dashboard
 * AWS ECR Integration
 
----
 
-# 👨‍💻 Author
+#  Author
 
 **Bhavesh Gadre**
 
