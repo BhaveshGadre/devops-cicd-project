@@ -99,7 +99,7 @@ Jenkins Pipeline
 
 ---
 
-# 📷 Project Screenshots
+#  Project Screenshots
 
 ## GitHub Repository
 
