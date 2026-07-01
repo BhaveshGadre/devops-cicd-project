@@ -10,7 +10,7 @@ This project showcases practical DevOps skills including Continuous Integration,
 
 
 #  Architecture
-
+...
 Developer
     │
     │ Git Push
@@ -34,7 +34,7 @@ Jenkins Pipeline
             │
             ▼
      AWS EC2 Instance
-
+...
 
 #  Tech Stack
 
@@ -50,7 +50,7 @@ Jenkins Pipeline
 
 
 #  Repository Structure
-
+...
 .
 ├── docs/
 ├── screenshots/
@@ -62,7 +62,7 @@ Jenkins Pipeline
 ├── package-lock.json
 ├── README.md
 └── .gitignore
-
+...
 
 #  CI/CD Pipeline Workflow
 
