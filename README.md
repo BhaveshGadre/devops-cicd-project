@@ -128,6 +128,17 @@ Jenkins Pipeline
 ![GitHub Webhook](screenshots/github-webhook.png)
 
 
+## Prerequisites
+
+Before running this project, ensure the following tools are installed:
+
+- Git
+- Node.js
+- Docker
+- Docker Compose (optional)
+- Jenkins (for CI/CD pipeline)
+- AWS EC2 Instance (for deployment)
+
 #  How to Run
 
 Clone the repository
