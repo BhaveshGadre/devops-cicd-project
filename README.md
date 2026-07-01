@@ -8,6 +8,9 @@ Whenever code is pushed to the GitHub repository, Jenkins automatically triggers
 
 This project showcases practical DevOps skills including Continuous Integration, Continuous Deployment, containerization, and cloud deployment.
 
+## Architecture Diagram
+
+![Architecture](docs/architecture-diagram.png)
 
 
 #  Architecture
