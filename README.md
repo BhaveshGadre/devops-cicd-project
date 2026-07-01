@@ -8,11 +8,9 @@ Whenever code is pushed to the GitHub repository, Jenkins automatically triggers
 
 This project showcases practical DevOps skills including Continuous Integration, Continuous Deployment, containerization, and cloud deployment.
 
----
 
 #  Architecture
 
-```
 Developer
     │
     │ Git Push
@@ -36,9 +34,7 @@ Jenkins Pipeline
             │
             ▼
      AWS EC2 Instance
-```
 
----
 
 #  Tech Stack
 
@@ -52,11 +48,9 @@ Jenkins Pipeline
 * Node.js
 * Linux
 
----
 
 #  Repository Structure
 
-```
 .
 ├── docs/
 ├── screenshots/
@@ -68,9 +62,7 @@ Jenkins Pipeline
 ├── package-lock.json
 ├── README.md
 └── .gitignore
-```
 
----
 
 #  CI/CD Pipeline Workflow
 
@@ -84,8 +76,6 @@ Jenkins Pipeline
 8. Latest image is deployed on AWS EC2.
 9. Application becomes available automatically.
 
----
-
 #  Features
 
 * Automated CI/CD Pipeline
@@ -97,7 +87,6 @@ Jenkins Pipeline
 * Jenkins Declarative Pipeline
 * Zero Manual Build Process
 
----
 
 #  Project Screenshots
 
@@ -105,69 +94,53 @@ Jenkins Pipeline
 
 ![GitHub Repository](screenshots/github-repository.png)
 
----
 
 ## Jenkins Dashboard
 
 ![Jenkins Dashboard](screenshots/jenkins-dashboard.png)
 
----
 
 ## Successful Pipeline Execution
 
 ![Pipeline Success](screenshots/pipeline-success.png)
 
----
 
 ## Docker Hub Repository
 
 ![Docker Hub](screenshots/dockerhub.png)
 
----
 
 ## Running Application
 
 ![Application](screenshots/application.png)
 
----
 
 ## GitHub Webhook
 
 ![GitHub Webhook](screenshots/github-webhook.png)
 
----
 
 #  How to Run
 
 Clone the repository
 
-```
 git clone <repository-url>
-```
 
 Install dependencies
 
-```
 npm install
-```
 
 Run the application
 
-```
 npm start
-```
 
 Build Docker Image
 
-```
-docker build -t employee-api:v1 .
-```
+docker build -t employee-api:v1 
 
 Run Docker Container
 
-```
 docker run -d -p 3000:3000 employee-api:v1
-```
 
 
 #  Key Learnings
