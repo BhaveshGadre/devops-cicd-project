@@ -8,7 +8,7 @@ Whenever code is pushed to the GitHub repository, Jenkins automatically triggers
 
 This project showcases practical DevOps skills including Continuous Integration, Continuous Deployment, containerization, and cloud deployment.
 
----
+
 
 #  Architecture
 
@@ -38,7 +38,7 @@ Jenkins Pipeline
      AWS EC2 Instance
 ```
 
----
+
 
 #  Tech Stack
 
@@ -52,7 +52,7 @@ Jenkins Pipeline
 * Node.js
 * Linux
 
----
+
 
 #  Repository Structure
 
